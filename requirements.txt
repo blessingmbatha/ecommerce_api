@@ -205,7 +205,6 @@ msgpack==1.0.5
 multipledispatch==1.0.0
 munkres==1.1.4
 mypy-extensions==1.0.0
-navigator-updater==0.1.0
 nbclassic==1.0.0
 nbclient==0.8.0
 nbconvert==7.8.0
