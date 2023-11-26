@@ -12,7 +12,7 @@ pipeline {
              git changelog: false, poll: false, url: 'https://github.com/blessingmbatha/ecommerce_api.git'
           }
        }
-       stage('Install packages') {
+       stage('Install Dependencies') {
           steps {
              sh "pip install -r requirements.txt"
           }
